@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hinh"
+    tools:context=".SuaSach_activity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Thêm Sách"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30dp" />
+    <!--nhập ma sách-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Ma Sách"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/inputMa"
+            android:layout_width="400dp"
+            android:textColor="#FF0048"
+            android:layout_height="wrap_content"
+            android:hint="Nhập Tên Sách"
+            />
+    </LinearLayout>
+    <!--nhập Tên sách-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Tên Sách"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/inputTen"
+            android:layout_width="400dp"
+            android:textColor="#FF0048"
+            android:layout_height="wrap_content"
+            android:hint="Nhập Tên Sách"
+            />
+    </LinearLayout>
+    <!--nhập tác giả-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Tác Giả"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/inputTacGia"
+            android:layout_width="400dp"
+            android:textColor="#FF0048"
+            android:layout_height="wrap_content"
+            android:hint="Nhập Tác Giả"
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+    <!--nhập nxb-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="NXB"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/inputNXB"
+            android:layout_width="400dp"
+            android:textColor="#FF0048"
+            android:layout_height="wrap_content"
+            android:hint="Nhập Nhà Xuất Bản"
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+    <!--nhập tình trạng-->
+
+    <!--btn Luu va Huy-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="50dp">
+
+        <Button
+
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/luu"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:text="Lưu" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:background="@color/huy"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:text="Trở về" />
+    </LinearLayout>
+</LinearLayout>

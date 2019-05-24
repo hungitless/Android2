@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hinh"
+    tools:context=".SuaSach_activity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Mượn Sách"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30dp" />
+
+    <!--nhập Tên sách-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Mã bạn đọc"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/inputTen"
+            android:layout_width="300dp"
+            android:textColor="@color/design_default_color_primary"
+            android:layout_height="wrap_content"
+            android:hint="Nhập Mã" />
+    </LinearLayout>
+    <!--nhập tác giả-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Ngày mượn"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/inputTacGia"
+            android:layout_width="300dp"
+            android:textColor="@color/design_default_color_primary"
+            android:layout_height="wrap_content"
+            android:hint="Nhập Ngày Mượn" />
+    </LinearLayout>
+
+    <!--btn Luu va Huy-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/btnChon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/luu"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:text="Chọn sách" />
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/luu"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:text="Lưu"
+            android:layout_marginLeft="30dp"/>
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@color/huy"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:text="Hủy" />
+    </LinearLayout>
+</LinearLayout>

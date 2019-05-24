@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/muon"
+        android:title="Mượn sách"
+        android:orderInCategory="100"
+         />
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"
+        android:orderInCategory="100"
+        />
+    <item
+        android:id="@+id/dss"
+        android:title="Danh sách sách"
+        android:orderInCategory="100"
+        />
+
+    <item
+        android:id="@+id/them"
+        android:title="Scale"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_them"
+        />
+    <item
+        android:id="@+id/tk"
+        android:title="Scale"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_timkiem"
+        />
+</menu>
