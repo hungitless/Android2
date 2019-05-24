@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">QuanLyThucPham</string>
+    <string name="QLTP">Quản lý thực phẩm</string>
+    <string name="thucpham">Thực phẩm</string>
+    <string name="chuthich">Mô tả</string>
+    <string name="gia">Giá</string>
+    <string name="Nhap">Thêm thực phẩm</string>
+    <string name="DSTP">Danh sách thực phẩm</string>
+</resources>
