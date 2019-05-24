@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">My Application</string>
-    <string name="qlsv">QUẢN LÝ SINH VIÊN</string>
-    <string name="ma">Mã SV: </string>
-    <string name="ten">Tên SV: </string>
-    <string name="them">Thêm</string>
-    <string name="dssv">DANH SÁCH SINH VIÊN</string>
-</resources>
